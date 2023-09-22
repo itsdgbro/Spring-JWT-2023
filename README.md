@@ -14,4 +14,4 @@ Authentication gets to works first to authenticate.
 <li>`ProviderManager` is responsible for managing the `AuthenticationProviders`</li>
 <li>AuthManager iterates over all AuthProviders for suitable candidate to handle the received object</li>
 <li>Over iterating and testing all providers, if none success then returns authentication fail</li>
-<li>Authentication is done by the **username** where it is in `UserDetailsService` which has `loadUserByUserName()`</li>
+<li>Authentication is done by the `username` where it is in `UserDetailsService` which has `loadUserByUserName()`</li>
