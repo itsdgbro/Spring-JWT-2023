@@ -7,3 +7,10 @@ Follow up https://www.learncodewithdurgesh.com/blogs/jwt-authentication-with-spr
   <li>Initialize and configure maven project</li>
   <li>Dependency Web, Security, JWT</li>
 </ul>
+
+<h1>For firing Spring Security</h1>
+Authentication gets to works first to authenticate.
+<li>AuthenticationManger is the heart of the security who is responsible for receiving credentials.</li>
+<li>ProviderManager is responsible for managing the AuthenticationProviders</li>
+<li>AuthManager iterates over all AuthProviders for suitable candidate to handle the received object</li>
+<li>Over iterating and testing all providers, if none success then returns authentication fail</li>
